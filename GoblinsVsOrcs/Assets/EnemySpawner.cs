@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-
-
-
 public class EnemySpawner : MonoBehaviour
 {
 
@@ -57,7 +54,6 @@ public class EnemySpawner : MonoBehaviour
 
     private void onEnemyDestroyed(){
         enemiesAlive -- ;
-
     }
 
     private void EndWave(){
@@ -67,14 +63,10 @@ public class EnemySpawner : MonoBehaviour
         currentWave++;
     }
 
-
-
-
     private void SpawnEnemy(){
-    GameObject prefabToSpawn = enemyPrefabs[0];
-    Instantiate(prefabToSpawn, LevelManager.main.startPoint.position, Quaternion.identity );
-   
-}
+        GameObject prefabToSpawn = enemyPrefabs[0];
+        Instantiate(prefabToSpawn, LevelManager.main.startPoint.position, Quaternion.identity );
+    }
 
     private IEnumerator StartWave(){
         yield return new WaitForSeconds(timeBetweenWaves);
@@ -82,11 +74,10 @@ public class EnemySpawner : MonoBehaviour
         isSpawning = true;
         enemiesLeftToSpawn = EnemiesPerWave();
 
-
     }
     
     private int EnemiesPerWave(){
-    return Mathf.RoundToInt(baseEnemies * Mathf.Pow(currentWave, difficultyScalingFactor));
+        return Mathf.RoundToInt(baseEnemies * Mathf.Pow(currentWave, difficultyScalingFactor));
     }
 }
 

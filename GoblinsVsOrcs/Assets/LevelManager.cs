@@ -10,6 +10,7 @@ public class LevelManager : MonoBehaviour
     public Transform[] path;
 
     public int money;
+    public int health;
 
     private void Awake(){
         main = this;
@@ -17,6 +18,7 @@ public class LevelManager : MonoBehaviour
 
     private void Start() {
         money = 100;
+        health = 100;
     }
      
     public void IncreaseMoney(int amount){
@@ -33,5 +35,10 @@ public class LevelManager : MonoBehaviour
             Debug.Log("Not enough money");
             return false;
         }
+
+     
+
+
+
     }
 }

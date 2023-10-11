@@ -18,19 +18,20 @@ public class EnemyMovement : MonoBehaviour{
     }
 
     private void Update() {
-         if(Vector2.Distance(target.position, transform.position) <= 0.1f ){
+        if(Vector2.Distance(target.position, transform.position) <= 0.1f )
+        {
             pathIndex++;
-          
-            if(pathIndex == LevelManager.main.path.Length){
+            if(pathIndex == LevelManager.main.path.Length)
+            {
                 EnemySpawner.onEnemyDestroy.Invoke();
                 Destroy(gameObject);
+                LevelManager.main.health -= gameObject.GetComponent<Health>().getDamageVal();
                 return;
             } else {
                 target = LevelManager.main.path[pathIndex];
-
-            }
             }
         }
+    }
      
     
     private void FixedUpdate() {

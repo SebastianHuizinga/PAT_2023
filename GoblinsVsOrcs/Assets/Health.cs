@@ -7,6 +7,9 @@ public class Health : MonoBehaviour
     [Header("Attributes")]  
     [SerializeField] private int hitPoints =2;
     [SerializeField] private int deathValue = 50;
+    [SerializeField] private int damageValue = 5;
+    
+
 
     private bool isDead = false;
 
@@ -21,9 +24,16 @@ public class Health : MonoBehaviour
         }
     }
 
+    public int getDamageVal(){
+        int dmgValue = damageValue;
+        return dmgValue;
+        
+    }
+
     // Start is called before the first frame update
     void Start()
     {
+        
         
     }
 
