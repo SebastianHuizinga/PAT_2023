@@ -12,14 +12,11 @@ public class TurretScript : MonoBehaviour
     [SerializeField] private LayerMask enemyMask;
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Transform firingPoint;
-    
+
     [Header("Attributes")]
     [SerializeField] private float targetingRange = 5f;
     [SerializeField] private float rotationSpeed = 5f;
     [SerializeField] private float shotsPerSecond = 1f;
-    [SerializeField] private float cost;
-
-    
 
     private Transform target;
     private float timeUntilShoot;
@@ -63,7 +60,6 @@ public class TurretScript : MonoBehaviour
        GameObject arrowObj = Instantiate(bulletPrefab, firingPoint.position, Quaternion.identity);
        Arrow arrowScript = arrowObj.GetComponent<Arrow>();
        arrowScript.SetTarget(target);
-       LevelManager.main.bulletshot += 1;
     }
 
     private void FindTarget(){
@@ -85,11 +81,5 @@ public class TurretScript : MonoBehaviour
     private bool CheckTargetIsInRange(){
         return Vector2.Distance(target.position, transform.position) <= targetingRange;
     }
-
-        public int getCost(){
-        int cost_ = (int)cost;
-        return cost_;
-    }
-    
 
 }

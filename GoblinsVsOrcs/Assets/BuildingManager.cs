@@ -31,11 +31,8 @@ public class BuildingManager : MonoBehaviour
     }
     void PlaceObject(){ 
         if((LevelManager.main.money - cost) >= 0){
-        LevelManager.main.money -= pendingObj.GetComponent<TurretScript>().getCost();
-        LevelManager.main.moneySpent += pendingObj.GetComponent<TurretScript>().getCost();
         pendingObj = null;
-         LevelManager.main.builtTowers += 1;
-        
+        LevelManager.main.money -= cost;
         }else{
              Debug.Log("too expensive");
         }
@@ -58,8 +55,7 @@ public class BuildingManager : MonoBehaviour
     public void SelectObj(int index){
 
         pendingObj = Instantiate(objects[index], pos, transform.rotation);
-        
-        
+        cost = (index + 1) * 50;
        
 
     }
