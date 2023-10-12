@@ -3,7 +3,7 @@ using UnityEngine;
 
 
 [Serializable]
-public class Tower
+public class Tower 
 {
     public string name;
     public int cost;
@@ -26,5 +26,10 @@ public class Tower
     void Update()
     {
         
+    }
+
+    public int getCost(){
+        int cost_ = cost;
+        return cost_;
     }
 }

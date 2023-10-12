@@ -11,6 +11,12 @@ public class LevelManager : MonoBehaviour
 
     public int money;
     public int health;
+    public int bulletshot;
+    public int enemieskilled;
+    public int moneySpent;
+    public int builtTowers;
+    public HighScores highscore;
+
 
     private void Awake(){
         main = this;
@@ -19,6 +25,11 @@ public class LevelManager : MonoBehaviour
     private void Start() {
         money = 100;
         health = 100;
+        bulletshot = 0;
+        enemieskilled = 0;
+        moneySpent = 0;
+        builtTowers = 0;
+        highscore.WriteScore();
     }
      
     public void IncreaseMoney(int amount){

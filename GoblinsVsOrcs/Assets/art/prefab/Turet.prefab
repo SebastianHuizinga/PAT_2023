@@ -170,6 +170,7 @@ MonoBehaviour:
   targetingRange: 3.5
   rotationSpeed: 500
   shotsPerSecond: 1
+  cost: 50
 --- !u!1 &8573087389522889530
 GameObject:
   m_ObjectHideFlags: 0
