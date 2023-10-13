@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 630ac134772272141a1c9275d1bc9969
+guid: 683a413674b115942b065ea8d9627657
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6325975015817556707
-    second: Goblin base_0
+      213: -1836120431684336037
+    second: Hat_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Goblin base_0
+      name: Hat_0
       rect:
         serializedVersion: 2
-        x: 430
-        y: 308
-        width: 865
-        height: 651
+        x: 55
+        y: 41
+        width: 586
+        height: 479
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1dc2345d3f9538a0800000000000000
-      internalID: -6325975015817556707
+      spriteID: b564e90123ac486e0800000000000000
+      internalID: -1836120431684336037
       vertices: []
       indices: 
       edges: []
@@ -128,8 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Goblin base_0: -6325975015817556707
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

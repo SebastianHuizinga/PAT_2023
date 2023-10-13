@@ -19,6 +19,7 @@ public class BuildingManager : MonoBehaviour
     private void Update()
     {
         if(pendingObj != null){
+
             pendingObj.transform.position = pos;
 
             if(Input.GetMouseButtonDown(0)){
@@ -29,10 +30,12 @@ public class BuildingManager : MonoBehaviour
 
         }
     }
+
     void PlaceObject(){ 
         if((LevelManager.main.money - cost) >= 0){
-        pendingObj = null;
+           
         LevelManager.main.money -= cost;
+        pendingObj = null;
         }else{
              Debug.Log("too expensive");
         }
@@ -56,6 +59,7 @@ public class BuildingManager : MonoBehaviour
 
         pendingObj = Instantiate(objects[index], pos, transform.rotation);
         cost = (index + 1) * 50;
+        
        
 
     }

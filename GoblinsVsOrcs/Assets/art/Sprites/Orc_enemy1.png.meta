@@ -152,7 +152,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Orc_enemy1_0: 7620787059945551963
+      Orc_enemy1_1: -262571961485931232
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

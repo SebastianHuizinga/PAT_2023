@@ -17,6 +17,9 @@ public class TurretScript : MonoBehaviour
     [SerializeField] private float targetingRange = 5f;
     [SerializeField] private float rotationSpeed = 5f;
     [SerializeField] private float shotsPerSecond = 1f;
+    [SerializeField] private int turretCost;
+   
+
 
     private Transform target;
     private float timeUntilShoot;
@@ -82,4 +85,9 @@ public class TurretScript : MonoBehaviour
         return Vector2.Distance(target.position, transform.position) <= targetingRange;
     }
 
+    public int getCost(){
+        int cost_ = turretCost;
+        return cost_;
+    }
+    
 }

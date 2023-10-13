@@ -12,6 +12,7 @@ public class Arrow : MonoBehaviour
     [Header("Attributes")]
     [SerializeField] private float bulletSpeed = 5f;
     [SerializeField] private int bulletDmg = 1;
+   
 
     private Transform target;
     // Start is called before the first frame update
@@ -28,6 +29,7 @@ public class Arrow : MonoBehaviour
 
     // Update is called once per frame
     private void FixedUpdate() {
+        
         if(!target) return;
 
         Vector2 direction = (target.position - transform.position).normalized;
@@ -38,8 +40,12 @@ public class Arrow : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D other) {
-
+        
         other.gameObject.GetComponent<Health>().TakeDamage(bulletDmg);
         Destroy(gameObject);
+    }
+     void OnBecameInvisible()
+    { Destroy(gameObject);
+        
     }
 }
