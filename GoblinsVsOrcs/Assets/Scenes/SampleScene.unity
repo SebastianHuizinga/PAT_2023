@@ -1764,6 +1764,10 @@ MonoBehaviour:
   - {fileID: 7702499448828705199, guid: 7342473ce7034124b89e92e99652dfee, type: 3}
   - {fileID: 7702499448828705199, guid: 012124556facbe54f9d3544bc4aafa50, type: 3}
   - {fileID: 7702499448828705199, guid: 896589d5b133f8d4c99dd980c8d47fe1, type: 3}
+  towers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   cost: 0
   layermask:
     serializedVersion: 2

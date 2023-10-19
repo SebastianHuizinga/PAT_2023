@@ -7,6 +7,8 @@ using UnityEngine.UI;
 public class BuildingManager : MonoBehaviour
 {
     public GameObject[] objects;
+    public Tower[] towers;
+    private Tower pendingTower;
     public int cost;
     private GameObject pendingObj;
     private Vector3 pos;
@@ -58,11 +60,12 @@ public class BuildingManager : MonoBehaviour
     public void SelectObj(int index){
 
         pendingObj = Instantiate(objects[index], pos, transform.rotation);
-        cost = (index + 1) * 50;
+        cost = pendingObj.GetComponent<TurretScript>().getCost();
         
        
 
     }
 
+    
      
 }

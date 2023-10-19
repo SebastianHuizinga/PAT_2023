@@ -89,5 +89,7 @@ public class TurretScript : MonoBehaviour
         int cost_ = turretCost;
         return cost_;
     }
+
+    
     
 }

@@ -3,7 +3,7 @@ using UnityEngine;
 
 
 [Serializable]
-public class Tower
+public class Tower: MonoBehaviour
 {
     public string name;
     public int cost;
@@ -16,6 +16,14 @@ public class Tower
 
 
     }
+
+   // public int getCost(){
+       // int crost = cost;
+        //return crost;
+
+
+
+ //   }
     // Start is called before the first frame update
     void Start()
     {
