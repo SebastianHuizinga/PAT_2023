@@ -24,10 +24,10 @@ public class TurretScript : MonoBehaviour
     private Transform target;
     private float timeUntilShoot;
 
-    private void OnDrawGizmosSelected() {
-        Handles.color = Color.cyan;
-        Handles.DrawWireDisc(transform.position, transform.forward, targetingRange);
-    }
+    //private void OnDrawGizmosSelected() {
+      //  Handles.color = Color.cyan;
+      ////  Handles.DrawWireDisc(transform.position, transform.forward, targetingRange);
+   // }
         // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +51,8 @@ public class TurretScript : MonoBehaviour
         if(timeUntilShoot >= 1f/shotsPerSecond){
             Shoot();
             timeUntilShoot = 0f;
+        }   if(LevelManager.main.hasLost == true){
+            Destroy(gameObject);
         }
 
 
@@ -63,6 +65,7 @@ public class TurretScript : MonoBehaviour
        GameObject arrowObj = Instantiate(bulletPrefab, firingPoint.position, Quaternion.identity);
        Arrow arrowScript = arrowObj.GetComponent<Arrow>();
        arrowScript.SetTarget(target);
+       LevelManager.main.totalShot += 1;
     }
 
     private void FindTarget(){

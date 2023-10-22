@@ -61,6 +61,7 @@ public class EnemySpawner : MonoBehaviour
         timeSinceLastSpawn = 0f;
         StartCoroutine(StartWave());
         currentWave++;
+        LevelManager.main.totalReached ++;
     }
 
     private void SpawnEnemy(){

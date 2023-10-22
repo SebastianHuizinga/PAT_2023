@@ -19,7 +19,8 @@ public class Health : MonoBehaviour
         if(hitPoints <= 0  && isDead == false){
             EnemySpawner.onEnemyDestroy.Invoke();
             LevelManager.main.IncreaseMoney(deathValue);
-            isDead = true;
+            LevelManager.main.totalKilled += 1;
+            isDead = true;          
             Destroy(gameObject);
         }
     }

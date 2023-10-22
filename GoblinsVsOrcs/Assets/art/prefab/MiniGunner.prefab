@@ -209,6 +209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 68659567971582230}
   - component: {fileID: 2316779147044441205}
+  - component: {fileID: -1152581102690848703}
   m_Layer: 6
   m_Name: MiniGunner
   m_TagString: Untagged
@@ -255,6 +256,20 @@ MonoBehaviour:
   rotationSpeed: 1000
   shotsPerSecond: 3
   turretCost: 150
+--- !u!114 &-1152581102690848703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7702499448828705199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c57906f5e187bec4bb46923194dcb5cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathAnim: {fileID: 8502994820153129563, guid: 4c1be9b1d6253594a97d50f75aa8e90a, type: 3}
+  objPos: {fileID: 68659567971582230}
 --- !u!1 &8573087389522889530
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,778 @@
+fileFormatVersion: 2
+guid: c11c7981e355c564988a6528cdee7fbb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -72690663138641413
+    second: BoomShakaLaka_0
+  - first:
+      213: -6229833635630835427
+    second: BoomShakaLaka_1
+  - first:
+      213: -19641083923860211
+    second: BoomShakaLaka_2
+  - first:
+      213: -6845851628322794080
+    second: BoomShakaLaka_3
+  - first:
+      213: 2344389786510500377
+    second: BoomShakaLaka_4
+  - first:
+      213: 6102034073565437388
+    second: BoomShakaLaka_5
+  - first:
+      213: -3008958819051887936
+    second: BoomShakaLaka_6
+  - first:
+      213: -7806370948097013888
+    second: BoomShakaLaka_7
+  - first:
+      213: -3818482101724260305
+    second: BoomShakaLaka_8
+  - first:
+      213: 273839065671106712
+    second: BoomShakaLaka_9
+  - first:
+      213: 6023145122761872051
+    second: BoomShakaLaka_10
+  - first:
+      213: -9206141171539803317
+    second: BoomShakaLaka_11
+  - first:
+      213: -1466086899201760240
+    second: BoomShakaLaka_12
+  - first:
+      213: -4277236439955502933
+    second: BoomShakaLaka_13
+  - first:
+      213: 7027395071027947365
+    second: BoomShakaLaka_14
+  - first:
+      213: -6261830993983477898
+    second: BoomShakaLaka_15
+  - first:
+      213: -42259041134246791
+    second: BoomShakaLaka_16
+  - first:
+      213: -3550453080592252563
+    second: BoomShakaLaka_17
+  - first:
+      213: 2934657317310415916
+    second: BoomShakaLaka_18
+  - first:
+      213: -8024771786711767022
+    second: BoomShakaLaka_19
+  - first:
+      213: 2104287218025052195
+    second: BoomShakaLaka_20
+  - first:
+      213: -6501695068874791580
+    second: BoomShakaLaka_21
+  - first:
+      213: -9027570222127779121
+    second: BoomShakaLaka_22
+  - first:
+      213: 6316516475646091182
+    second: BoomShakaLaka_23
+  - first:
+      213: 1479782225531445645
+    second: BoomShakaLaka_24
+  - first:
+      213: 9025652302303147653
+    second: BoomShakaLaka_25
+  - first:
+      213: 1232604796929352979
+    second: BoomShakaLaka_26
+  - first:
+      213: -6516585513878104319
+    second: BoomShakaLaka_27
+  - first:
+      213: -161852072171098649
+    second: BoomShakaLaka_28
+  - first:
+      213: -7094915455633419963
+    second: BoomShakaLaka_29
+  - first:
+      213: 2631022537163416815
+    second: BoomShakaLaka_30
+  - first:
+      213: -6520517404798141967
+    second: BoomShakaLaka_31
+  - first:
+      213: -6449194328679037853
+    second: BoomShakaLaka_32
+  - first:
+      213: -3555479714440473900
+    second: BoomShakaLaka_33
+  - first:
+      213: 9068104692402532044
+    second: BoomShakaLaka_34
+  - first:
+      213: 1766287965619844135
+    second: BoomShakaLaka_35
+  - first:
+      213: -2158943865635031056
+    second: BoomShakaLaka_36
+  - first:
+      213: -2006765257913830735
+    second: BoomShakaLaka_37
+  - first:
+      213: -2054523722630580620
+    second: BoomShakaLaka_38
+  - first:
+      213: 6292412788376125329
+    second: BoomShakaLaka_39
+  - first:
+      213: 3774102388415607662
+    second: BoomShakaLaka_40
+  - first:
+      213: 8238177182064583762
+    second: BoomShakaLaka_41
+  - first:
+      213: 3255753751694135597
+    second: BoomShakaLaka_42
+  - first:
+      213: 3453423152030305204
+    second: BoomShakaLaka_43
+  - first:
+      213: -6422235241485856244
+    second: BoomShakaLaka_44
+  - first:
+      213: 4045025762890429808
+    second: BoomShakaLaka_45
+  - first:
+      213: 5824101350998770809
+    second: BoomShakaLaka_46
+  - first:
+      213: -8617717126306223280
+    second: BoomShakaLaka_47
+  - first:
+      213: -3424095846984880609
+    second: BoomShakaLaka_48
+  - first:
+      213: -8002326412953026207
+    second: BoomShakaLaka_49
+  - first:
+      213: -7683581841588424790
+    second: BoomShakaLaka_50
+  - first:
+      213: -7743875880555986146
+    second: BoomShakaLaka_51
+  - first:
+      213: 5567417372909829229
+    second: BoomShakaLaka_52
+  - first:
+      213: 2293131705579379323
+    second: BoomShakaLaka_53
+  - first:
+      213: -6350486498551326749
+    second: BoomShakaLaka_54
+  - first:
+      213: -8062897060552899907
+    second: BoomShakaLaka_55
+  - first:
+      213: -4423065457840980913
+    second: BoomShakaLaka_56
+  - first:
+      213: 2331996801645834061
+    second: BoomShakaLaka_57
+  - first:
+      213: 3824151692457144264
+    second: BoomShakaLaka_58
+  - first:
+      213: 8367218945965344440
+    second: BoomShakaLaka_59
+  - first:
+      213: -5059299808643921219
+    second: BoomShakaLaka_60
+  - first:
+      213: 4684194029048289154
+    second: BoomShakaLaka_61
+  - first:
+      213: -2488253112312046293
+    second: BoomShakaLaka_62
+  - first:
+      213: 6976116777470767659
+    second: BoomShakaLaka_63
+  - first:
+      213: -3136159216422060961
+    second: BoomShakaLaka_64
+  - first:
+      213: 8908813274317350305
+    second: BoomShakaLaka_65
+  - first:
+      213: -6320461236352120578
+    second: BoomShakaLaka_66
+  - first:
+      213: -1207581832467896350
+    second: BoomShakaLaka_67
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BoomShakaLaka_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 566
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125b3f1e75bc35047a8ce11dfcc51b05
+      internalID: -1413450786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 566
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586ba91351290544aadf1b36a4ecbab7
+      internalID: 1782721628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 566
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09755e6f81b50704bb7f81e549b19085
+      internalID: 1046874083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 566
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f504aba3f4efe488412aadc2b7060d
+      internalID: -468416998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 566
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75981b557e48d504c9ef69afab9e9766
+      internalID: -1612065094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 566
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ae01eb407156346bcc71cf3eb3c189
+      internalID: -1984140944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 566
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f3caf0d8ce6b24799af3dbccbf7f5f
+      internalID: -491665313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 286
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcc956893eb58146a7226eaf1cde89b
+      internalID: 1930850094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 286
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63367c5f792f01c48b08a0f1b09ee27c
+      internalID: -1606284862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 286
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46a59621b7bd0b4683bb118e4b2e6a9
+      internalID: 1325318830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_10
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 286
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a07cbd4fa3a0d43804ba9033b003a3
+      internalID: 1058571559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_11
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 286
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815b1153907e7e04c9484ccdb7c3f1e8
+      internalID: 1645858326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_12
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 286
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7f53ab01ca9434ead6ee6b5728e328
+      internalID: -1167595140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_13
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 286
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c6f4caab348fd4eb5c4c54c39c9e8a
+      internalID: -1305026279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4552c39e86ff70c4b8739e7475d12603
+      internalID: -2027132004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 6
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2028ddfec41699d4c8cf3bec5a1f180f
+      internalID: -740327665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 6
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3ff00871c80ab469b9149331744e62
+      internalID: 247949013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_17
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 6
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82058bf3e46072a42a5ba5648f13a9ba
+      internalID: -43466556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_18
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 6
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c762394f39724d4daf05a7b3261033c
+      internalID: -220829888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_19
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 6
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f311f66c719114ba68de8bb0f8afa7
+      internalID: -1587300419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoomShakaLaka_20
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 6
+        width: 200
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0375acc0843264f449b00330e0d5ca23
+      internalID: 901395922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1e65b8e4a29561d43a425fd19bb6d08c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BoomShakaLaka_0: -1413450786
+      BoomShakaLaka_1: 1782721628
+      BoomShakaLaka_10: 1058571559
+      BoomShakaLaka_11: 1645858326
+      BoomShakaLaka_12: -1167595140
+      BoomShakaLaka_13: -1305026279
+      BoomShakaLaka_14: -2027132004
+      BoomShakaLaka_15: -740327665
+      BoomShakaLaka_16: 247949013
+      BoomShakaLaka_17: -43466556
+      BoomShakaLaka_18: -220829888
+      BoomShakaLaka_19: -1587300419
+      BoomShakaLaka_2: 1046874083
+      BoomShakaLaka_20: 901395922
+      BoomShakaLaka_3: -468416998
+      BoomShakaLaka_4: -1612065094
+      BoomShakaLaka_5: -1984140944
+      BoomShakaLaka_6: -491665313
+      BoomShakaLaka_7: 1930850094
+      BoomShakaLaka_8: -1606284862
+      BoomShakaLaka_9: 1325318830
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
