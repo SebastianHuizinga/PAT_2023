@@ -6,7 +6,11 @@ using UnityEngine.SceneManagement;
 public class SceneController : MonoBehaviour
 {
     public void nextScene(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if(SceneManager.GetActiveScene().buildIndex >= 3){
+            SceneManager.LoadScene(2);
+
+        }
+        else SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
     }
     //loads next scene
