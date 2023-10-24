@@ -14,12 +14,14 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private float enemiesPerSec = 0.5f;
     [SerializeField] private float timeBetweenWaves = 5f;
     [SerializeField] private float difficultyScalingFactor = 0.75f;
+    [SerializeField] private float enemiesPerSecCap = 10f;
 
     [Header("Events")]
     public static UnityEvent onEnemyDestroy = new UnityEvent();
 
     private int currentWave = 1;
     private float timeSinceLastSpawn;
+    private float eps;
     private int enemiesAlive;
     private int enemiesLeftToSpawn;
     private bool isSpawning = false;
@@ -65,7 +67,8 @@ public class EnemySpawner : MonoBehaviour
     }
 
     private void SpawnEnemy(){
-        GameObject prefabToSpawn = enemyPrefabs[0];
+        int index = Random.Range(0, enemyPrefabs.Length);
+        GameObject prefabToSpawn = enemyPrefabs[index];
         Instantiate(prefabToSpawn, LevelManager.main.startPoint.position, Quaternion.identity );
     }
 
@@ -74,11 +77,15 @@ public class EnemySpawner : MonoBehaviour
         
         isSpawning = true;
         enemiesLeftToSpawn = EnemiesPerWave();
+        eps = EnemiesPerSecond();
 
     }
     
     private int EnemiesPerWave(){
         return Mathf.RoundToInt(baseEnemies * Mathf.Pow(currentWave, difficultyScalingFactor));
+    }
+    private float EnemiesPerSecond(){
+        return Mathf.Clamp((enemiesPerSec * Mathf.Pow(currentWave, difficultyScalingFactor)),0f ,enemiesPerSecCap);
     }
 }
 

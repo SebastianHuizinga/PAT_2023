@@ -168,7 +168,7 @@ MonoBehaviour:
     m_Bits: 128
   bulletPrefab: {fileID: 1166767963821939683, guid: 60e5e6bca660d2d478b127f544b3aece, type: 3}
   firingPoint: {fileID: 48504501213925298}
-  targetingRange: 35
+  targetingRange: 300
   rotationSpeed: 200
   shotsPerSecond: 1
   turretCost: 100

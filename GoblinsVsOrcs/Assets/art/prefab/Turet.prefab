@@ -170,7 +170,7 @@ MonoBehaviour:
   firingPoint: {fileID: 48504501213925298}
   targetingRange: 20
   rotationSpeed: 500
-  shotsPerSecond: 1
+  shotsPerSecond: 2
   turretCost: 50
 --- !u!114 &-8672906437124587767
 MonoBehaviour:

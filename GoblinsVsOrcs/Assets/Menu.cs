@@ -7,9 +7,11 @@ public class Menu : MonoBehaviour
 {
 
     [Header("References")]
+    //allows me to say which ones change
     [SerializeField] TextMeshProUGUI moneyUI;
     [SerializeField] TextMeshProUGUI healthUI;
     
+    //literally just changes GUI text
     private void OnGUI() {
         moneyUI.text = LevelManager.main.money.ToString();
          healthUI.text = LevelManager.main.health.ToString();

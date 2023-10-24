@@ -6,7 +6,8 @@ using UnityEngine;
 
 public static class FileHandler
 {
-
+    //Type T acts a default type that can be changed to fit the users needs at any time, so please not that when readin type T from here on as i am simply too lazy to write "of any type" on each thing :)
+    // Save a list of items of type T to a JSON file.
     public static void SaveToJSON<T>(List<T> toSave, string filename)
     {
         Debug.Log(GetPath(filename));
@@ -14,11 +15,14 @@ public static class FileHandler
         WriteFile(GetPath(filename), content);
     }
 
-     public static void SaveToJSON<T> (T toSave, string filename) {
-        string content = JsonUtility.ToJson (toSave);
-        WriteFile (GetPath (filename), content);
+    // Save a single item of type T to a JSON file.
+    public static void SaveToJSON<T>(T toSave, string filename)
+    {
+        string content = JsonUtility.ToJson(toSave);
+        WriteFile(GetPath(filename), content);
     }
 
+    // Read a list of items of type T from a JSON file.
     public static List<T> ReadListFromJSON<T>(string filename)
     {
         string content = ReadFile(GetPath(filename));
@@ -31,9 +35,9 @@ public static class FileHandler
         List<T> res = JsonHelper.FromJson<T>(content).ToList();
 
         return res;
-
     }
 
+    // Read a single item of type T from a JSON file.
     public static T ReadFromJSON<T>(string filename)
     {
         string content = ReadFile(GetPath(filename));
@@ -46,14 +50,15 @@ public static class FileHandler
         T res = JsonUtility.FromJson<T>(content);
 
         return res;
-
     }
 
+    // Get the full file path for the specified filename.
     private static string GetPath(string filename)
     {
         return Application.persistentDataPath + "/" + filename;
     }
 
+    // Write content to a file at the specified path.
     private static void WriteFile(string path, string content)
     {
         FileStream fileStream = new FileStream(path, FileMode.Create);
@@ -64,6 +69,7 @@ public static class FileHandler
         }
     }
 
+    // Read and return the content of a file at the specified path.
     private static string ReadFile(string path)
     {
         if (File.Exists(path))
@@ -80,12 +86,14 @@ public static class FileHandler
 
 public static class JsonHelper
 {
+    // Deserialize a JSON string into an array of type T.
     public static T[] FromJson<T>(string json)
     {
         Wrapper<T> wrapper = JsonUtility.FromJson<Wrapper<T>>(json);
         return wrapper.Items;
     }
 
+    // Serialize an array of type T into a JSON string.
     public static string ToJson<T>(T[] array)
     {
         Wrapper<T> wrapper = new Wrapper<T>();
@@ -93,6 +101,7 @@ public static class JsonHelper
         return JsonUtility.ToJson(wrapper);
     }
 
+    // Serialize an array of type T into a JSON string with or without pretty-printing.
     public static string ToJson<T>(T[] array, bool prettyPrint)
     {
         Wrapper<T> wrapper = new Wrapper<T>();
