@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 4457457015378098242}
   - component: {fileID: 7048693388634038221}
   - component: {fileID: 2819686846387259207}
-  - component: {fileID: -7558638867624663922}
+  - component: {fileID: 2857131834293188425}
   m_Layer: 7
   m_Name: Enemy
   m_TagString: Untagged
@@ -273,7 +273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 4457457015378098242}
   moveSpeed: 2
---- !u!114 &-7558638867624663922
+--- !u!114 &2857131834293188425
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -282,9 +282,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2103809170516556086}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea9353965c98714439eaeebafcbadc84, type: 3}
+  m_Script: {fileID: 11500000, guid: 78512dcc0bcb21a4eb9ab0fc5c998a05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoints: 5
-  deathValue: 25
+  deathValue: 50
   damageValue: 10

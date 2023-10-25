@@ -10,7 +10,7 @@ public class ScoreManager : MonoBehaviour
 {
     // References to UI Text fields and other variables.
     public User user;
-    private string jsonFilePath = "C:/Users/user-pc/AppData/LocalLow/DefaultCompany/GoblinsVsOrcs/Scores.json";
+    private string jsonFilePath = "C:/Users/sebastianh/AppData/LocalLow/DefaultCompany/GoblinsVsOrcs/Scores.json";
 
     private string usernames;
     private string kills;
@@ -92,37 +92,37 @@ public class ScoreManager : MonoBehaviour
         usernames = "";
         kills = "";
         level = "";
-        builds = "";
+        builds = "";    
         shots = "";
         spendings = "";
 
         // Populate the UI text fields with user scores.
-        for (int i = 0; i < userArray.Length - 1; i++)
+        for (int i = 0; i < userArray.Length ; i++)
         {
             usernames += "#" + (i + 1) + " " + userArray[i].userName + "\n";
             userNameField.text = usernames;
         }
-        for (int i = 0; i < userArray.Length - 1; i++)
+        for (int i = 0; i < userArray.Length ; i++)
         {
             kills += userArray[i].enemiesKilled + "\n";
             enemiesKilledField.text = kills;
         }
-        for (int i = 0; i < userArray.Length - 1; i++)
+        for (int i = 0; i < userArray.Length ; i++)
         {
             shots += userArray[i].arrowsShot + "\n";
             bulletsShotField.text = shots;
         }
-        for (int i = 0; i < userArray.Length - 1; i++)
+        for (int i = 0; i < userArray.Length ; i++)
         {
             builds += userArray[i].towersBuilt + "\n";
             towersBuitltField.text = builds;
         }
-        for (int i = 0; i < userArray.Length - 1; i++)
+        for (int i = 0; i < userArray.Length ; i++)
         {
             level += userArray[i].levelReached + "\n";
             levelReachedField.text = level;
         }
-        for (int i = 0; i < userArray.Length - 1; i++)
+        for (int i = 0; i < userArray.Length ; i++)
         {
             spendings += userArray[i].moneySpent + "\n";
             moneySpentField.text = spendings;

@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GoblinsVOrc_sample_0: -5300070782884672430
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

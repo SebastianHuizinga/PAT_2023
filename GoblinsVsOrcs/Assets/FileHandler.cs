@@ -55,7 +55,7 @@ public static class FileHandler
     // Get the full file path for the specified filename.
     private static string GetPath(string filename)
     {
-        return Application.persistentDataPath + "/" + filename;
+        return Application.dataPath + "/" + filename;
     }
 
     // Write content to a file at the specified path.
